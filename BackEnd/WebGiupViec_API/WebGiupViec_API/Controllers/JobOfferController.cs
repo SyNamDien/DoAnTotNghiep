@@ -96,5 +96,21 @@ namespace WebGiupViec_API.Controllers
         {
             return _context.JobOffers.Any(e => e.JobOfferId == id);
         }
+
+        [HttpGet(nameof(GetDashboard))]
+        public async Task<IActionResult> GetDashboard()
+        {
+            var iQueryable = _context.JobOffers.AsQueryable();
+            var totalJob = await iQueryable.CountAsync(m => m.TrangThaiId == 1);
+            var totalJobPayment = await _context.JobPayments.CountAsync();
+            var jobOffers = iQueryable.Select(m => DateTime.Parse(m.NgayDang).Date).ToList();
+            var jobPayments = _context.JobPayments.Select(m => DateTime.Parse(m.NgayTt).Date).ToList();
+            var totalJobPerDay = jobOffers.Where(m => m == DateTime.Now.Date).Count();
+            var jobPaymentPerDay = jobPayments?.Count(m => m == DateTime.Now.Date) ?? 0;
+
+            var totalStaff = await _context.staff.CountAsync();
+            var totalNews = await _context.Posts.CountAsync();
+            return Ok(new {  totalJob, totalJobPayment, totalJobPerDay, jobPaymentPerDay, totalStaff, totalNews });
+        }
     }
 }

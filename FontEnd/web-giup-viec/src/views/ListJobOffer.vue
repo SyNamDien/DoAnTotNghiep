@@ -220,7 +220,7 @@ async getJobOffer(id){
 async addPayMent(){
   
   var ngayDang = new Date();
-  var ngayTT = ngayDang.getMonth()+"-"+ngayDang.getDate()+"-"+ngayDang.getFullYear();
+  var ngayTT = (ngayDang.getMonth() + 1)+"-"+ngayDang.getDate()+"-"+ngayDang.getFullYear();
   console.log("Đã click",this.jobOfferIdTT,ngayTT,this.giaCVTT,this.ghiChu);
   let resultThanhToan = await axios.post("https://localhost:44354/api/JobPayment",{
   jobOfferId: this.jobOfferIdTT,

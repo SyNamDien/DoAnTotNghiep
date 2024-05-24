@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|c:\\users\\devblock-dbl052\\downloads\\fndoan\\fndoan\\backend\\webgiupviec_api\\webgiupviec_api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|solutionrelative:webgiupviec_api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\webgiupviec_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|solutionrelative:webgiupviec_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|c:\\users\\devblock-dbl052\\downloads\\fndoan\\fndoan\\backend\\webgiupviec_api\\webgiupviec_api\\controllers\\joboffercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|solutionrelative:webgiupviec_api\\controllers\\joboffercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\webgiupviec_api\\controllers\\jobpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|solutionrelative:webgiupviec_api\\controllers\\jobpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\webgiupviec_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2960435-E848-4FEE-BD55-5C1080AAF133}|WebGiupViec_API\\WebGiupViec_API.csproj|solutionrelative:webgiupviec_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,10 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -63,39 +59,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "WebGiupViec_API\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\PostController.cs",
-              "RelativeToolTip": "WebGiupViec_API\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFYAAAAzAAAA",
+              "Title": "JobOfferController.cs",
+              "DocumentMoniker": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\JobOfferController.cs",
+              "RelativeDocumentMoniker": "WebGiupViec_API\\Controllers\\JobOfferController.cs",
+              "ToolTip": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\JobOfferController.cs",
+              "RelativeToolTip": "WebGiupViec_API\\Controllers\\JobOfferController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwv3QAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T22:01:49.738Z",
+              "WhenOpened": "2024-05-23T21:52:12.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "WebGiupViec_API\\Controllers\\PaymentController.cs",
               "ToolTip": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "WebGiupViec_API\\Controllers\\PaymentController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T21:54:56.809Z"
+              "WhenOpened": "2024-05-18T21:54:56.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "JobPaymentController.cs",
               "DocumentMoniker": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\JobPaymentController.cs",
               "RelativeDocumentMoniker": "WebGiupViec_API\\Controllers\\JobPaymentController.cs",
               "ToolTip": "C:\\Users\\DevBlock-DBL052\\Downloads\\FNDoAn\\FNDoAn\\BackEnd\\WebGiupViec_API\\WebGiupViec_API\\Controllers\\JobPaymentController.cs",
               "RelativeToolTip": "WebGiupViec_API\\Controllers\\JobPaymentController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAABKAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwBUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T21:53:43.59Z"
+              "WhenOpened": "2024-05-18T21:53:43.59Z",
+              "EditorCaption": ""
             }
           ]
         }

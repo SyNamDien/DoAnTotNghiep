@@ -116,7 +116,7 @@ methods:{
     },
     async submitJobOffer(){
   console.log("Đã click",this.jobId,this.customerID,this.maNV,this.ngayBDLam,this.gia,this.note);
-  var ngayDangTNV = this.ngayDang.getMonth()+"-"+this.ngayDang.getDate()+"-"+this.ngayDang.getFullYear();
+  var ngayDangTNV = (this.ngayDang.getMonth() + 1) +"-"+this.ngayDang.getDate()+"-"+this.ngayDang.getFullYear();
   let resultOffer = await axios.post("https://localhost:44354/api/JobOffer",{
   jobId: this.jobId,
   customerId: this.customerID,

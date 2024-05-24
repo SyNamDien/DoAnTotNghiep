@@ -10,12 +10,12 @@
           <div class="row">
             <div class="col-12">
               <div class="card">
-                <div class="card-body">
+                <!-- <div class="card-body">
                   <h4 class="card-title">Danh Sách Công Việc</h4>
                   <div>
                     <a v-on:click="dialogAdd = true" class="btn btn-green">Thêm Việc</a>
                   </div>
-                </div>
+                </div> -->
                 <div class="table-responsive">
 
                   <table class="table">

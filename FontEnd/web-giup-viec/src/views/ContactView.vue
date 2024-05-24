@@ -122,7 +122,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <p>Mã QR: 
-                            <img width="250"  src="assets/qrcode.png" />
+                            <img width="250"  src="assets/qrcode.jpg" />
                         </p>
                     </div>
                     <div class="col-sm-2"></div>
